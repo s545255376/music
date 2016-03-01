@@ -1,5 +1,5 @@
 <?php
-namespace  admin\Model;
+namespace  Admin\Model;
 
 use Think\Model;
 class  NewsModel extends Model{

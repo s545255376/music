@@ -11,6 +11,8 @@ return array(
     'DB_PREFIX'             =>  'thinks_',    // 数据库表前缀
     
     'DEFAULT_THEME'    =>    'default',
+    'MODULE_ALLOW_LIST'    =>    array('Home','Admin'),
+    'DEFAULT_MODULE'       =>    'Home',  // 默认模块
     'SHOW_PAGE_TRACE'  =>true,
     
 
