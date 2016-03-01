@@ -1,0 +1,26 @@
+[ 2016-01-25T20:06:05+08:00 ] ::1 /down/admin.php/News/save
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE4\xB8\x8D\xE5\xBE\x97...' for column 'title' at row 1
+
+[ 2016-01-25T20:38:05+08:00 ] ::1 /down/admin.php/Index/login
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2016-01-25T20:38:24+08:00 ] ::1 /down/admin.php/Index/login
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2016-01-25T20:46:09+08:00 ] ::1 /down/admin.php/Upfile/upfile
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+
+[ 2016-01-25T20:51:44+08:00 ] ::1 /down/admin.php/Download/index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'book.thinks_download' doesn't exist
+
+[ 2016-01-25T20:51:47+08:00 ] ::1 /down/admin.php/Download/index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'book.thinks_download' doesn't exist
+
+[ 2016-01-25T20:52:08+08:00 ] ::1 /down/admin.php/Category/insert
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+
+[ 2016-01-25T20:55:01+08:00 ] ::1 /down/admin.php/Software/insert
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+

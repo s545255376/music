@@ -1,0 +1,29 @@
+<include   file="Public/show"/>
+<import  type="css"  file="css.common"/>
+
+<div  id="content">
+<p>用户信息</p>
+
+<form action="__URL__/save"  method="post">
+
+<table  id="uadd">
+
+<tr>
+<th>用户名</th>
+<td><input type="text" name="UserName"  value="{$data['username']}"  disabled=true/></td>
+</tr>
+<tr>
+<th>密码</th>
+<td><input type="password" name="UserPwd"/></td>
+</tr>
+<tr>
+<td><input type="hidden"  name="id"  value="{$data['id']}"/></td>
+<td>
+<input type="submit" value="提交"/>
+<input type="reset"  value="重写"/>
+</td>
+</tr>
+</table>
+</form>
+
+</div>

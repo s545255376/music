@@ -1,0 +1,6 @@
+[ 2016-01-28T22:27:03+08:00 ] ::1 /down/admin.php/Download/index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'book.thinks_download' doesn't exist
+
+[ 2016-01-28T22:38:24+08:00 ] ::1 /down/admin.php/Download/index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'book.thinks_download' doesn't exist
+

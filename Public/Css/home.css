@@ -1,0 +1,208 @@
+@CHARSET "UTF-8";
+
+body{
+	margin:0px;
+	padding:0px;
+	<!--background-color:red;-->
+}
+
+#top{
+    
+	width:100%;
+	height:28px;
+	background-color:#545652;
+	
+}
+#top ul{
+	margin:0px;
+}
+#top  li{
+	float:left;
+	list-style:none;
+	width:50px;
+	
+}
+	.left{
+		float:left;
+	}
+	.right{
+		float:right;
+	}
+#top ul li a{
+	color:#D5D5D5;
+	text-decoration:none;
+	font-size:10px;
+	vertical-align: middle;
+}
+
+#title{
+	height:118px;
+	background-color:#F0F3EF;
+	padding:0px;
+	margin:0px;
+	
+	
+}
+
+    .name{
+      position:absolute; 
+          top:44px; 
+          left:191px;
+       
+    
+    }
+    
+    .name  a{
+       text-decoration:none;
+       font-size:32px;
+       font-family:"楷体";
+       font-weight:bold;
+       color:#F2901C;
+    }
+    .search{
+      height:32px;
+      width:506px;
+      position:absolute; 
+          top:50px; 
+          left:355px;
+      
+      background-color:white;
+    }
+    #stext{
+    
+       font-size:12px;
+       width:465px;
+       height:20px;
+       margin-top:4px;
+       background: transparent;
+       border: transparent;
+       outline:none;
+       
+    }
+    .search img{
+      float:right;
+      width:32px;
+      height:30px;
+    }
+    .menu{
+      height:40px;
+      width:100%;
+      border-top:1px solid #E3E9E2;
+      position:absolute; 
+          top:103px; 
+          left:0px;
+     
+          
+      
+    }
+    .menu  table {
+       margin-left:191px;
+    }
+    .menu   td{
+       padding-top:10px;
+       padding-right:28px;
+    }
+    .menu   a{
+       text-decoration:none;
+       color:#5E5D53;
+       font-size:15px;
+    }
+    .menu  a:hover{
+       background-color:#545652 ;
+       color:white;
+       display:block;
+    }
+
+#tag{
+	height:107px;
+	width:594px;
+	margin-left:198px;
+	border-bottom:1px solid  #CCCCCC; 
+	
+	
+	
+}
+#tag  span{
+	display:block;
+	font-size:28px;
+	font-family:"楷体";
+	font-weight:lighter;
+	color:#494949;
+	position:absolute;
+	  top:183px;
+	  left:200px;
+	 
+	
+}
+  .thref{
+    display:block;
+    margin-left:400px;
+    margin-top:37px;
+    
+  
+  }
+  .thref  a:link{
+      text-decoration:none;
+      font-size:16px;
+      color:#666699;
+    
+  }
+  .thref  a:hover{
+      background-color:#224B7F;
+      color:white;
+    
+  }
+  
+  .cate1{
+      text-decoration:none;
+      font-size:16px;
+      color:#666699;
+      
+  
+  }
+
+ /*
+ .thref  a:visited{
+      
+      color:#CCCCCC;
+   
+  }
+  
+*/
+
+#music{
+
+	margin-left:200px;
+}
+  #music td{
+     width:146px;
+     height:25px;
+  }
+  #music span{
+    
+     font-size:17px;
+     color:#007722;
+  }
+ #music td a{
+    padding:5px;
+    text-decoration:none;
+    color:#3377AA;
+    background-color:#F5F5F5;
+    font-size:13px;
+ }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

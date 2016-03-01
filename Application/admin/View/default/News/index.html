@@ -1,0 +1,40 @@
+
+<include  file="Public/show"/>
+<import   type="css"  file="css.common"/>
+<import   type="js"  file="js.common"/>
+<body>
+
+
+  <div id="content">
+        <p>新闻管理</p>
+      <form action=""  method="post"  id="addF">
+      <table  border=1  id="ntable">
+      <tr>
+      <th>题目</th>
+      <th>时间</th>
+      <th>修改</th>
+      <th>选择</th>
+      </tr>
+      <volist  name="list"  id="vo">
+      <tr>
+      <td><a href="__URL__/select/id/{$vo['id']}">{$vo['title']}</a></td>
+      <td>{$vo['createtime']}</td>
+      <td><a href="__URL__/add/id/{$vo['id']}">修改</a></td>
+      <td><input type="checkbox"  name="did[]"  id="news" value="{$vo['id']}"/></td>
+      </tr>
+      </volist>
+      
+      </table>
+      </form>
+      <div  class="page">
+      {$page}
+      </div>
+      <div  class="link">
+      <a href="__URL__/add"><input type="button"  id="button1"  value="添加新闻"  /></a>
+      <input type="button"  id="button1"  value="全选"  onclick="sltAll()" />
+      <input type="button"  id="button1"  value="清空"  onclick="unselAll()" />
+      <input type="button"  id="button1"  value="删除"  onclick="del()"/>
+      </div>
+      
+  </div>
+</body>

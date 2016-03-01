@@ -1,0 +1,26 @@
+<include   file="Public/show"/>
+<import  type="css"  file="css.common"/>
+
+<div  id="content">
+<p>上传信息</p>
+<table  id="uplo">
+<tr>
+<th>
+客户端文件名:{$file['name']}
+</th>
+
+</tr>
+<tr>
+<th>文件类型：{$file['type']} </th>
+</tr>
+<tr><th>文件大小:{$file['size']} </th></tr>
+  
+<tr><th>服务端临时文件名:{$file['tmp_name']} </th></tr> 
+<tr><th>上传后新文件名:{$newfile}  </th></tr> 
+
+<tr><th>{$flag}</th></tr> 
+
+<tr><th><a href="__URL__/upload">[ 继续上传 ]</a>  </th></tr>
+
+</table>
+</div>

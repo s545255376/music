@@ -1,0 +1,26 @@
+<include   file="Public/show"/>
+<import  type="css"  file="css.common"/>
+
+<div  id="content">
+<p></p>
+
+<form action="__URL__/save"  method="post">
+<table  id="nadd" border=1>
+<tr>
+<th>新闻标题</th>
+<td><input type="text" name="title"  value="{$data['title']}"/></td>
+</tr>
+<tr>
+<th>新闻内容</th>
+<td><textarea name="memos" id="memos" cols="40" rows="20">{$data['memos']}</textarea></td>
+</tr>
+
+</table>
+<div  >
+<input type="hidden"  name="id" value="{$data['id']}"/>
+<input type="submit" value="提交"  class="sub1"/>
+<input type="reset" value="重写"   class="sub2"/>
+
+</div>
+</form>
+</div>

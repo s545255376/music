@@ -1,0 +1,112 @@
+<include   file="Public/public"/>
+<include   file="Public/show"/>
+<import  type="css"  file="css.home"/>
+<import  type="js"  file="js.home"/>
+<import  type="js"  file="js.jquery"/>
+<script>
+$(document).ready(function(){
+  $('.all').hide();
+  $('#cate').click(function(){
+     $('.cate').show();
+     $('.all').hide();
+  })
+    $('#all').click(function(){
+     $('.cate').hide();
+     $('.all').show();
+  })
+    
+})
+</script>
+<div  id="tag">
+
+<span>音乐标签</span>
+<span  class="thref">
+<a href="#"   id="cate"  onclick="cate()" >分类浏览</a>
+<a href="#"  id="all"  onclick="all()"  >所有热门标签</a>
+</span>
+</div>
+
+
+<div  class="cate">
+<div  id="music">
+
+<table>
+
+<tr  collspan="4"><td><span>风格....</span></td></tr>
+
+
+<volist name="list" id="vo"  mod="4">
+<eq name="mod" value="0"><tr></eq>
+<td><a href="">{$vo.name}</a></td>
+<eq name="mod" value="3"></tr></eq>
+</volist>
+
+</table>
+</div>
+
+<div  id="music">
+
+<table>
+
+<tr  collspan="4"><td><span>国家/地区....</span></td></tr>
+
+
+<volist name="data" id="vo"  mod="4">
+<eq name="mod" value="0"><tr></eq>
+<td><a href="">{$vo.area}</a></td>
+<eq name="mod" value="3"></tr></eq>
+</volist>
+
+</table>
+</div>
+
+<div  id="music">
+
+<table>
+
+<tr  collspan="4"><td><span>艺术家....</span></td></tr>
+
+
+<volist name="data" id="vo"  mod="4">
+<eq name="mod" value="0"><tr></eq>
+<td><a href="">{$vo['singer']}</a></td>
+<eq name="mod" value="3"></tr></eq>
+</volist>
+
+</table>
+</div>
+</div>
+
+<div  class="all">
+
+<div  id="music">
+
+<table>
+
+<tr  collspan="4"><td><span>全部标签....</span></td></tr>
+
+
+<volist name="data" id="vo"  mod="4">
+<eq name="mod" value="0"><tr></eq>
+<td><a href="">{$vo['singer']}</a></td>
+<td><a href="">{$vo['area']}</a></td>
+<eq name="mod" value="3"></tr></eq>
+</volist>
+
+<volist name="list" id="vo"  mod="4">
+<eq name="mod" value="0"><tr></eq>
+<td><a href="">{$vo['name']}</a></td>
+<eq name="mod" value="3"></tr></eq>
+</volist>
+
+</table>
+
+</div>
+
+</div>
+
+  
+
+
+
+
