@@ -1,0 +1,36 @@
+<include   file="Public/show"/>
+<import  type="css"  file="css.common"/>
+
+
+<div  id="content">
+
+<p>用户管理</p>
+<table  id="ntable"  border=1>
+
+<tr>
+<th>用户名</th>
+<th>密码重置</th>
+<th>删除</th>
+
+</tr>
+<volist  name="data" id="vo">
+   <tr>
+   <td>{$vo['username']}</td>
+   <td><a href="__URL__/resetpwd/id/{$vo['id']}">重置密码</a></td>
+   <td>
+   <gt  name="vo['id']"  value="1">
+   <a href="__URL__/delete/id/{$vo['id']}">删除</a>
+   </gt>
+   
+   </td>
+   </tr>
+</volist>
+</table>
+<div  class="page">
+{$page}
+
+
+<a href="__URL__/add"><input type="button" id="useradd" value="新建用户信息"/></a>
+
+
+</div>

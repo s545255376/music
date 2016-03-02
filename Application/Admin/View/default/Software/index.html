@@ -1,0 +1,35 @@
+<include   file="Public/show"/>
+<import  type="css"  file="css.common"/>
+
+<div  id="content">
+
+
+<p>音乐播放软件</p>
+
+<table  border=1  id="ntable">
+
+<tr>
+<th>名称</th>
+<th>修改</th>
+<th>删除</th>
+</tr>
+
+<volist  name="list"  id="vo">
+  <tr>
+  <td>{$vo['name']}</td>
+  <td><a href="__URL__/edit/id/{$vo['id']}">修改</a></td>
+  <td><a href="__URL__/delete/id/{$vo['id']}">删除</a></td>
+  </tr>
+
+</volist>
+</table>
+
+<div  class="sadd">
+<form action="__URL__/insert"  method="post">
+名称:  <input type="text"  name="name"/>
+
+<input type="submit"  value="添加"/>
+
+</form>
+</div>
+</div>

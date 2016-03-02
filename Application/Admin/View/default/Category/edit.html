@@ -1,0 +1,23 @@
+<include   file="Public/show"/>
+<import  type="css"  file="css.common"/>
+
+<div  id="content">
+
+<form action="__URL__/save"  method="post">
+<table  >
+<tr>
+<td>类目名称:</td>
+<td><input type="text" name="name"  value="{$data['name']}"/></td>
+</tr>
+<tr>
+<td><input type="hidden"  name="id"  value="{$data['id']}"  /></td>
+<td><input type="submit" value="提交"/></td>
+</tr>
+
+</table>
+
+</form>
+
+
+
+</div>

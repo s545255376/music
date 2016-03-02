@@ -1,0 +1,35 @@
+<include   file="Public/show"/>
+<import  type="css"  file="css.common"/>
+
+<div  id="content">
+
+<p>上传管理</p>
+
+<table  border="1px"   id="utable">
+
+<tr>
+<th  width=25 >ID</th>
+<th  width=100>音乐名称</th>
+<th  width=100>别名</th>
+<th  width=125>实际URL</th>
+<th  width=50>删除</th>
+
+</tr>
+<volist  name="data"  id="vo">
+ <tr>
+ <td>{$vo['id']}</td>
+ <td>{$vo['name']}</td>
+ <td>{$vo['uname']}</td>
+ <td>{$vo['url']}</td>
+ <td><a href="__URL__/delete/id/{$vo['id']}">删除</a></td>
+ </tr>
+</volist>
+
+</table>
+<div  class="page">
+{$page}
+</div>
+
+
+
+</div>

@@ -1,0 +1,135 @@
+<include   file="Public/show"/>
+<import  type="css"  file="css.common"/>
+
+<div  id="content">
+<form action="__URL__/insert"  method="post">
+<table  id="dtable"  border=1  >
+
+<tr>
+<th  colspan="2">添加音乐下载</th>
+</tr>
+<tr>
+<td>音乐类目:</td>
+
+<td>
+
+<select name="cid" id=""  >
+<volist  name="data"  id="vo">
+<option value="{$vo['id']}">
+
+<php>
+for($i=0;$i<$vo['margin']/4;$i++){
+echo "&nbsp&nbsp";
+}
+</php>
+<gt  name="vo['count']"  value="1">
+ ---
+</gt>
+
+{$vo['name']}
+
+</option>
+</volist>
+</select>
+
+</td>
+</tr>
+<tr>
+<td>音乐名称：</td>
+<td><input type="text" name="name"/></td>
+</tr>
+<tr>
+<td  rowspan="2">下载地址：</td>
+<td><input type="text" name="filename1"/></td>
+</tr>
+<tr>
+<td>地址名称:<input type="text"  name="txtname1"/></td>
+</tr>
+<tr>
+<td>艺术家</td>
+<td><input type="text" name="singer"/></td>
+</tr>
+<tr>
+<td>地区：</td>
+<td><input type="text" name="area"/></td>
+</tr>
+<tr>
+<td>推荐度:</td>
+<td>
+<select name="hotstars" >
+<option value="1">一星级</option>
+<option value="2">二星级</option>
+<option value="3">三星级</option>
+<option value="4">四星级</option>
+<option value="5">五星级</option>
+</select>
+
+</td>
+</tr>
+
+<tr>
+<td>播放软件:</td>
+<td>
+<select name="softid" >
+<volist  name="list"  id="vo"> 
+<option value="{$vo['id']}">{$vo['name']}</option>
+</volist>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>音乐大小:</td>
+<td><input type="text" name="downsize"  value="Byte"/></td>
+</tr>
+<tr>
+<td>图片地址</td>
+<td><input type="text"  name="imagefile"/></td>
+</tr>
+<tr>
+<td>音乐来源:</td>
+<td><input type="text"  name="url"  value="http://"/></td>
+</tr>
+<tr>
+<td>音乐形式</td>
+<td>
+<select name="dnote" id="">
+<option value="">共享音乐</option>
+<option value="">会员音乐</option>
+</select>
+是否推荐     <input type="checkbox"  name="ishot"  value="1"/>
+是否隐藏     <input type="checkbox"  name="ishide"  value="0"/>
+</td>
+</tr>
+<tr>
+<td>音乐简介:</td>
+<td><textarea name="dnote" id="" cols="30" rows="10"></textarea></td>
+</tr>
+
+</table>
+
+<input type="submit" value="提交"  class="sub1"/>
+<input type="reset"  value="重填"  class="sub2"/>
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
