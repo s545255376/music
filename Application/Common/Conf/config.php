@@ -11,9 +11,12 @@ return array(
     'DB_PREFIX'             =>  'thinks_',    // 数据库表前缀
     
     'DEFAULT_THEME'    =>    'default',
-    'MODULE_ALLOW_LIST'    =>    array('Home','Admin'),
+    'MODULE_ALLOW_LIST'    =>    array('Home','supper'),
     'DEFAULT_MODULE'       =>    'Home',  // 默认模块
-    'SHOW_PAGE_TRACE'  =>true,
-    
+    'SHOW_PAGE_TRACE'     =>true,
+    'URL_MODEL'            => '2', //URL模式
+    'URL_HTML_SUFFIX'     => 'html|shtml|xml',
+    'URL_MODULE_MAP'      =>    array('supper'=>'admin'),
+
 
 );

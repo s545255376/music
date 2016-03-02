@@ -28,3 +28,57 @@ ERR: 无法加载控制器:Index
 [ 2016-03-02T09:11:33+08:00 ] ::1 /music/index.php/Admin/Index/login
 ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
 
+[ 2016-03-02T20:06:37+08:00 ] ::1 /music/Admin/News/index.html.html
+ERR: 非法操作:index.html
+
+[ 2016-03-02T20:06:50+08:00 ] ::1 /music/Admin/News/index.html.html
+ERR: 非法操作:index.html
+
+[ 2016-03-02T20:09:59+08:00 ] ::1 /music/Admin/Index/__APP__/Admin.html
+ERR: 非法操作:__APP__
+
+[ 2016-03-02T20:10:38+08:00 ] ::1 /music/Admin/Index/__APP__/Admin.html
+ERR: 非法操作:__APP__
+
+[ 2016-03-02T20:10:46+08:00 ] ::1 /music/Admin/Index/__APP__/Admin.html
+ERR: 非法操作:__APP__
+
+[ 2016-03-02T20:11:21+08:00 ] ::1 /music/Admin/Index/__APP__/Admin.html
+ERR: 非法操作:__APP__
+
+[ 2016-03-02T20:34:23+08:00 ] 127.0.0.1 /supper/show
+ERR: 无法加载控制器:Show
+
+[ 2016-03-02T20:39:50+08:00 ] 127.0.0.1 /supper/Index/login.html
+ERR: 非法操作:login
+
+[ 2016-03-02T20:39:57+08:00 ] 127.0.0.1 /supper/login.html
+ERR: 无法加载控制器:Login
+
+[ 2016-03-02T20:40:46+08:00 ] 127.0.0.1 /supper/login.html
+ERR: 无法加载控制器:Login
+
+[ 2016-03-02T20:40:52+08:00 ] 127.0.0.1 /supper/login/index
+ERR: 无法加载控制器:Login
+
+[ 2016-03-02T20:41:47+08:00 ] 127.0.0.1 /supper/logout.html
+ERR: 无法加载控制器:Logout
+
+[ 2016-03-02T20:42:48+08:00 ] 127.0.0.1 /supper/logout.html
+ERR: 无法加载控制器:Logout
+
+[ 2016-03-02T20:42:52+08:00 ] 127.0.0.1 /supper/logout.html
+ERR: 无法加载控制器:Logout
+
+[ 2016-03-02T20:43:34+08:00 ] 127.0.0.1 /supper/logout.html
+ERR: 无法加载控制器:Logout
+
+[ 2016-03-02T20:44:20+08:00 ] 127.0.0.1 /supper/logout.html
+ERR: 无法加载控制器:Logout
+
+[ 2016-03-02T20:47:14+08:00 ] 127.0.0.1 /supper/logout.html
+ERR: 无法加载控制器:Logout
+
+[ 2016-03-02T20:47:18+08:00 ] 127.0.0.1 /supper/logout.html
+ERR: 无法加载控制器:Logout
+

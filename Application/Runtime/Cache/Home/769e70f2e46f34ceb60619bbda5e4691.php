@@ -1,8 +1,8 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="/music/Public/css/home.css" />
-<script type="text/javascript" src="/music/Public/js/home.js"></script>
+<link rel="stylesheet" type="text/css" href="/Public/css/home.css" />
+<script type="text/javascript" src="/Public/js/home.js"></script>
 <meta charset="UTF-8">
 <title>网站主页</title>
 </head>
@@ -21,12 +21,12 @@
 </div>
 <div  id="title">
 	 <div  class="name">
-	 <a href="/music/index.php/Home/Index/index">MY MUSIC</a>
+	 <a href="">MY MUSIC</a>
 	 </div>
 	 <div  class="search">
 	 
 	 <input type="text"   name="keyword" placeholder="音乐名,演员..."  id="stext" /> 
-	 <a href="/music/index.php/Home/Download/search/key/" id="shref"  onclick="getkey()"><img src="/music/Public/Image/search.jpg" alt="" /></a>
+	 <a href="/Home/Download/search/key/" id="shref"  onclick="getkey()"><img src="/Public/Image/search.jpg" alt="" /></a>
 	 
 	 </div>
 	 <div  class="menu">
@@ -37,7 +37,7 @@
 	 <td><a href="">歌单</a></td>
 	 <td><a href="">排行榜</a></td>
 	 <td><a href="">评论</a></td>
-	 <td><a href="/music/index.php/Home/Download/index">分类浏览</a></td>
+	 <td><a href="/download.html">分类浏览</a></td>
 	 </tr>
 	 </table>
 	 
@@ -48,5 +48,5 @@
 </body>
 </html>
 
-<link rel="stylesheet" type="text/css" href="/music/Public/css/home.css" />
-<script type="text/javascript" src="/music/Public/js/home.js"></script>
+<link rel="stylesheet" type="text/css" href="/Public/css/home.css" />
+<script type="text/javascript" src="/Public/js/home.js"></script>
