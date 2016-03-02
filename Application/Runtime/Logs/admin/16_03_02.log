@@ -1,0 +1,30 @@
+[ 2016-03-02T09:05:18+08:00 ] 127.0.0.1 /music/index.php/admin/index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-03-02T09:05:27+08:00 ] ::1 /music/index.php/Admin/index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-03-02T09:05:31+08:00 ] ::1 /music/index.php/Admin/
+ERR: 无法加载控制器:Index
+
+[ 2016-03-02T09:06:06+08:00 ] ::1 /music/index.php/Admin/index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-03-02T09:06:44+08:00 ] ::1 /music/index.php/Admin/index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-03-02T09:06:44+08:00 ] ::1 /music/index.php/Admin/index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-03-02T09:06:45+08:00 ] ::1 /music/index.php/Admin/index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-03-02T09:07:44+08:00 ] ::1 /music/index.php/Admin/
+ERR: 无法加载控制器:Index
+
+[ 2016-03-02T09:07:47+08:00 ] ::1 /music/index.php/Admin/
+ERR: 无法加载控制器:Index
+
+[ 2016-03-02T09:11:33+08:00 ] ::1 /music/index.php/Admin/Index/login
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
